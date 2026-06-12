@@ -1,5 +1,5 @@
---- breezy.debianize/debian/changelog	2026-06-10 14:37:32.793640833 +0530
-+++ breezy/debian/changelog	2026-06-10 14:38:43.367419080 +0530
+--- breezy.debianize/debian/changelog	2026-06-12 19:59:03.762651798 +0530
++++ breezy/debian/changelog	2026-06-12 20:00:24.167598962 +0530
 @@ -1,5 +1,2913 @@
 -python-breezy (2.8.32-1) UNRELEASED; urgency=low
 +breezy (3.3.22-1) unstable; urgency=medium
@@ -12,7 +12,7 @@
 +  * Remove patch fastexport_warn that is missing from debian/patches/series.
 +  * Upgrade upstream signing key to new packet format.
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 14:37:32 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 19:59:03 +0530
 + -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 06 May 2026 14:23:27 +0100
 +
 +breezy (3.3.21-1) unstable; urgency=medium

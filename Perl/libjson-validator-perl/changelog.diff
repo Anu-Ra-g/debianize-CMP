@@ -1,5 +1,5 @@
---- libjson-validator-perl.debianize/debian/changelog	2026-06-10 15:13:46.394141443 +0530
-+++ libjson-validator-perl/debian/changelog	2026-06-10 15:13:56.873087443 +0530
+--- libjson-validator-perl.debianize/debian/changelog	2026-06-12 20:24:24.001288801 +0530
++++ libjson-validator-perl/debian/changelog	2026-06-12 20:24:36.329512204 +0530
 @@ -1,5 +1,561 @@
 -libjson-validator-perl.debianize (5.19-1) UNRELEASED; urgency=low
 +libjson-validator-perl (5.18-1) unstable; urgency=medium
@@ -7,7 +7,7 @@
 -  * Initial release.
 +  * New upstream version 5.18
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 15:13:46 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 20:24:24 +0530
 + -- Andrius Merkys <merkys@debian.org>  Tue, 09 Jun 2026 05:41:38 -0400
 +
 +libjson-validator-perl (5.15+dfsg1-1) unstable; urgency=medium

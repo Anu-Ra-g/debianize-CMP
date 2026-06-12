@@ -1,14 +1,14 @@
-No upstream repository specified, using upstream source in /home/anurag/WORKSPACE/debianize-CMP/dulwich.debianize/
+No upstream repository specified, using upstream source in /home/anurag/debianize_diffs/dulwich.debianize/
 Switching to packaging branch debian/main.
 Using default unshare session
 Creating UpstreamBranchSource for enhanced upstream metadata handling
 Successfully created UpstreamBranchSource
-Using upstream version: 1.2.6
+Using upstream version: 1.2.7
 Creating unshare session from cached Debian sid image
 Using cached Debian sid image from: /home/anurag/.cache/ognibuild/images/debian-sid-amd64.tar.gz
 Using cached Debian sid image
-Created upstream branch pointing to revision git-v1:1a154e0a545180ddf4a49322a6e524e4c1828ac3
-Created upstream tag: upstream/1.2.6
+Created upstream branch pointing to revision git-v1:24854a8045d4a2eda3fd908bb4b0781572434030
+Created upstream tag: upstream/1.2.7
 Identified error: MissingCommand("python3")
 Attempting to use fixer upstream requirement fixer to address MissingCommand("python3")
 apt: running ["apt", "-y", "satisfy", "python3-minimal"]
@@ -32,7 +32,7 @@ Suggested packages:
 Summary:
   Upgrading: 0, Installing: 16, Removing: 0, Not Upgrading: 0
   Download size: 9068 kB
-  Space needed: 29.3 MB / 2649 MB available
+  Space needed: 29.3 MB / 3674 MB available
 
 Ign:1 http://deb.debian.org/debian sid/main amd64 libexpat1 amd64 2.8.1-1
 Ign:2 http://deb.debian.org/debian sid/main amd64 libpython3.13-minimal amd64 3.13.12-1
@@ -153,7 +153,7 @@ Suggested packages:
 Summary:
   Upgrading: 0, Installing: 16, Removing: 0, Not Upgrading: 0
   Download size: 9068 kB
-  Space needed: 29.3 MB / 2649 MB available
+  Space needed: 29.3 MB / 3674 MB available
 
 Ign:1 http://deb.debian.org/debian sid/main amd64 libexpat1 amd64 2.8.1-1
 Ign:2 http://deb.debian.org/debian sid/main amd64 libpython3.13-minimal amd64 3.13.12-1
@@ -274,7 +274,7 @@ Suggested packages:
 Summary:
   Upgrading: 0, Installing: 16, Removing: 0, Not Upgrading: 0
   Download size: 9068 kB
-  Space needed: 29.3 MB / 2649 MB available
+  Space needed: 29.3 MB / 3674 MB available
 
 Ign:1 http://deb.debian.org/debian sid/main amd64 libexpat1 amd64 2.8.1-1
 Ign:2 http://deb.debian.org/debian sid/main amd64 libpython3.13-minimal amd64 3.13.12-1
@@ -377,7 +377,11 @@ Error: Failed to process build dependencies
 Unable to map upstream requirement PythonPackageDependency(Requirement { name: PackageName("dissolve"), extras: [], version_or_url: Some(VersionSpecifier(VersionSpecifiers([VersionSpecifier { operator: GreaterThanEqual, version: "0.1.1" }]))), marker: true, origin: None }) (kind runtime-extra:dev) to a Debian package
 Unable to map upstream requirement PythonPackageDependency(Requirement { name: PackageName("atheris"), extras: [], version_or_url: None, marker: true, origin: None }) (kind runtime-extra:fuzzing) to a Debian package
 Using source package name: python-dulwich
+slow statement: execution time exceeded alert threshold summary="select id, type from …" db.statement="\n\nselect id, type from wnpp where source = $1 and type in ('ITP', 'RFP')\n" rows_affected=0 rows_returned=0 elapsed=3.70259069s elapsed_secs=3.70259069 slow_threshold=1s
+slow statement: execution time exceeded alert threshold summary="select id, substring(title, 1, …" db.statement="\n\nselect id, substring(title, 1, 3) from archived_bugs where package = 'wnpp' and (\n            title like 'ITP: ' || $1 || ' -- %' OR\n            title like 'RFP: ' || $1 || ' -- %')\n" rows_affected=0 rows_returned=0 elapsed=2.860487138s elapsed_secs=2.860487138 slow_threshold=1s
 No relevant WNPP bugs found for python-dulwich
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=11.657918721 slow_acquire_threshold_secs=2.0
+slow statement: execution time exceeded alert threshold summary="select id, substring(title, 1, …" db.statement="\n\nselect id, substring(title, 1, 3) from archived_bugs where package = 'wnpp' and (\n            title like 'ITP: ' || $1 || ' -- %' OR\n            title like 'RFP: ' || $1 || ' -- %')\n" rows_affected=1 rows_returned=1 elapsed=2.332124784s elapsed_secs=2.332124784 slow_threshold=1s
 Found archived ITP/RFP bugs for dulwich: [(512897, ITP)]
 Found WNPP bugs for dulwich: [(512897, ITP)]
 Writing initial changelog with source_name: python-dulwich
@@ -559,3 +563,7 @@ fixer; name="out-of-date-copyright-format-uri"
 fixer; name="upstream-metadata-file"
 Lintian fixers completed successfully
 Lintian fixers completed: 5 applied, 0 failed
+
+debian/control
+--- Modified files ---
+debian/control

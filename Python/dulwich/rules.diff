@@ -1,5 +1,5 @@
---- dulwich.debianize/debian/rules	2026-06-10 14:25:28.228123678 +0530
-+++ dulwich/debian/rules	2026-06-10 14:27:51.853060073 +0530
+--- dulwich.debianize/debian/rules	2026-06-12 19:44:38.466650868 +0530
++++ dulwich/debian/rules	2026-06-12 19:47:23.752600414 +0530
 @@ -1,3 +1,42 @@
  #!/usr/bin/make -f
 +

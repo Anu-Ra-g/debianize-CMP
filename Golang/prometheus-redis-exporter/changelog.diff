@@ -1,5 +1,5 @@
---- prometheus-redis-exporter.debianize/debian/changelog	2026-06-10 14:53:05.143592152 +0530
-+++ prometheus-redis-exporter/debian/changelog	2026-06-10 14:53:18.088489513 +0530
+--- prometheus-redis-exporter.debianize/debian/changelog	2026-06-12 20:06:12.216360541 +0530
++++ prometheus-redis-exporter/debian/changelog	2026-06-12 20:06:38.747389048 +0530
 @@ -1,5 +1,198 @@
 -golang-github-oliver006-redis-exporter (1.86.0-1) UNRELEASED; urgency=low
 +prometheus-redis-exporter (1.86.0-1) unstable; urgency=medium
@@ -7,7 +7,7 @@
 -  * Initial release.
 +  * New upstream release.
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 14:53:05 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 20:06:12 +0530
 + -- Guillem Jover <gjover@sipwise.com>  Tue, 09 Jun 2026 20:25:42 +0200
 +
 +prometheus-redis-exporter (1.84.0-1) unstable; urgency=medium

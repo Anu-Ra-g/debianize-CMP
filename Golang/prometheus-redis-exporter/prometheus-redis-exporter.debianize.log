@@ -1,4 +1,4 @@
-No upstream repository specified, using upstream source in /home/anurag/WORKSPACE/debianize-CMP/prometheus-redis-exporter.debianize/
+No upstream repository specified, using upstream source in /home/anurag/debianize_diffs/prometheus-redis-exporter.debianize/
 Switching to packaging branch debian/main.
 Using default unshare session
 Creating UpstreamBranchSource for enhanced upstream metadata handling
@@ -9,9 +9,10 @@ Using cached Debian sid image from: /home/anurag/.cache/ognibuild/images/debian-
 Using cached Debian sid image
 Created upstream branch pointing to revision git-v1:c4dac6ba37ea9c7da7652beb329612af977106aa
 Created upstream tag: upstream/1.86.0
-Unable to map upstream requirement GoPackageDependency { package: "github.com/cespare/xxhash/v2", version: Some("2.3.0") } (kind build) to a Debian package
 Using source package name: golang-github-oliver006-redis-exporter
 No relevant WNPP bugs found for golang-github-oliver006-redis-exporter
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=2.105292104 slow_acquire_threshold_secs=2.0
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=16.465590738 slow_acquire_threshold_secs=2.0
 No relevant WNPP bugs found for github.com/oliver006/redis_exporter
 Writing initial changelog with source_name: golang-github-oliver006-redis-exporter
 Running lintian fixers on debianized package
@@ -193,3 +194,7 @@ fixer; name="out-of-date-copyright-format-uri"
 fixer; name="upstream-metadata-file"
 Lintian fixers completed successfully
 Lintian fixers completed: 3 applied, 0 failed
+
+debian/control
+--- Modified files ---
+debian/control

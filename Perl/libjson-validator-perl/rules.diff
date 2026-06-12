@@ -1,5 +1,5 @@
---- libjson-validator-perl.debianize/debian/rules	2026-06-10 15:13:40.442760566 +0530
-+++ libjson-validator-perl/debian/rules	2026-06-10 15:13:56.873087443 +0530
+--- libjson-validator-perl.debianize/debian/rules	2026-06-12 20:24:18.603160617 +0530
++++ libjson-validator-perl/debian/rules	2026-06-12 20:24:36.329512204 +0530
 @@ -1,3 +1,10 @@
  #!/usr/bin/make -f
 +

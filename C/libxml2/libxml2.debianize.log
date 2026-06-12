@@ -1,4 +1,4 @@
-No upstream repository specified, using upstream source in /home/anurag/WORKSPACE/debianize-CMP/libxml2.debianize/
+No upstream repository specified, using upstream source in /home/anurag/debianize_diffs/libxml2.debianize/
 Switching to packaging branch debian/main.
 Using default unshare session
 Other error: meson not installed; skipping meson.build introspection
@@ -12,7 +12,7 @@ Using cached Debian sid image
 Created upstream branch pointing to revision git-v1:13a3df99ffe2521a903f270abb33aa7092b34147
 Created upstream tag: upstream/2.15.3
 Build failed without error being identified.
-Unable to obtain declared dependencies: Error installing dependency: Failed to run scan-dependencies: Unidentified { retcode: 1, lines: ["unshare: cannot change directory to /home/anurag/WORKSPACE/debianize-CMP/libxml2.debianize: No such file or directory"], secondary: None }
+Unable to obtain declared dependencies: Error installing dependency: Failed to run scan-dependencies: Unidentified { retcode: 1, lines: ["unshare: cannot change directory to /home/anurag/debianize_diffs/libxml2.debianize: No such file or directory"], secondary: None }
 Using source package name: libxml2
 No relevant WNPP bugs found for libxml2
 Writing initial changelog with source_name: libxml2
@@ -117,6 +117,8 @@ fixer; name="homepage-for-cpan-package-contains-version"
 fixer; name="homepage-in-binary-package"
 fixer; name="homepage-url-ends-with-dot-git"
 fixer; name="initial-upload-closes-no-bugs"
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=6.571242395 slow_acquire_threshold_secs=2.0
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=7.173562619 slow_acquire_threshold_secs=2.0
 No relevant WNPP bugs found for libxml2
 fixer; name="invalid-dep3-format-patch-wrong-last-update"
 fixer; name="invalid-short-name-in-dep5-copyright"
@@ -198,6 +200,9 @@ fixer; name="unversioned-copyright-format-uri"
 fixer; name="out-of-date-copyright-format-uri"
 fixer; name="upstream-metadata-file"
 Unknown tag developer-forum in DOAP file
-failed to probe breezy branch: UnexpectedHttpStatus { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("gitlab.gnome.org")), port: None, path: "/GNOME/libxml2/issues.git/info/refs", query: Some("service=git-upload-pack"), fragment: None }, code: 401, extra: Some("Unable to handle http code: Unauthorized"), headers: {"Via": "1.1 varnish", "server": "openresty", "x-permitted-cross-domain-policies": "none", "x-request-id": "01KTREM8PDKDP9K96YPPBTPFQ9", "x-gitlab-meta": "{\"correlation_id\":\"01KTREM8PDKDP9K96YPPBTPFQ9\",\"version\":\"1\"}", "x-frame-options": "SAMEORIGIN", "X-Cache-Hits": "0, 0", "X-Served-By": "cache-maa10229-MAA, cache-maa10229-MAA", "x-xss-protection": "0", "Accept-Ranges": "bytes", "x-runtime": "0.014217", "Content-Length": "354", "Connection": "keep-alive", "Date": "Wed, 10 Jun 2026 09:43:15 GMT", "X-Cache": "MISS, MISS", "content-type": "text/plain; charset=utf-8", "cache-control": "no-cache", "referrer-policy": "strict-origin-when-cross-origin", "www-authenticate": "Basic realm=\"GitLab\"", "x-content-type-options": "nosniff", "Vary": "Accept", "nel": "{\"max_age\": 0}", "X-Timer": "S1781084595.718571,VS0,VE332", "Strict-Transport-Security": "max-age=31557600"} }
+failed to probe breezy branch: UnexpectedHttpStatus { url: Url { scheme: "https", cannot_be_a_base: false, username: "", password: None, host: Some(Domain("gitlab.gnome.org")), port: None, path: "/GNOME/libxml2/issues.git/info/refs", query: Some("service=git-upload-pack"), fragment: None }, code: 401, extra: Some("Unable to handle http code: Unauthorized"), headers: {"X-Cache": "MISS, MISS", "Strict-Transport-Security": "max-age=31557600", "referrer-policy": "strict-origin-when-cross-origin", "Connection": "keep-alive", "x-request-id": "01KTY56BHFV3RSB9CJ6HEBCPMC", "x-xss-protection": "0", "x-frame-options": "SAMEORIGIN", "cache-control": "no-cache", "Vary": "Accept", "www-authenticate": "Basic realm=\"GitLab\"", "server": "openresty", "x-content-type-options": "nosniff", "Accept-Ranges": "bytes", "Via": "1.1 varnish", "x-runtime": "0.014117", "X-Cache-Hits": "0, 0", "x-gitlab-meta": "{\"correlation_id\":\"01KTY56BHFV3RSB9CJ6HEBCPMC\",\"version\":\"1\"}", "Date": "Fri, 12 Jun 2026 14:53:48 GMT", "Content-Length": "354", "content-type": "text/plain; charset=utf-8", "x-permitted-cross-domain-policies": "none", "nel": "{\"max_age\": 0}", "X-Served-By": "cache-bom-vanm7210042-BOM, cache-bom-vanm7210042-BOM", "X-Timer": "S1781276028.295598,VS0,VE299"} }
 Lintian fixers completed successfully
 Lintian fixers completed: 4 applied, 0 failed
+
+debian/control
+--- No file needs modification ---

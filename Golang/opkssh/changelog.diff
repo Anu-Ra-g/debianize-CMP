@@ -1,5 +1,5 @@
---- opkssh.debianize/debian/changelog	2026-06-10 14:47:22.028206889 +0530
-+++ opkssh/debian/changelog	2026-06-10 14:47:38.608923776 +0530
+--- opkssh.debianize/debian/changelog	2026-06-12 20:02:39.302337729 +0530
++++ opkssh/debian/changelog	2026-06-12 20:03:19.312189872 +0530
 @@ -1,5 +1,96 @@
 -golang-github-openpubkey-opkssh (0.14.0-1) UNRELEASED; urgency=low
 +opkssh (0.14.0-2) unstable; urgency=medium
@@ -7,7 +7,7 @@
 -  * Initial release.
 +  * Ignore tests that fails in testing
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 14:47:22 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 20:02:39 +0530
 + -- Simon Josefsson <simon@josefsson.org>  Tue, 09 Jun 2026 22:15:25 +0200
 +
 +opkssh (0.14.0-1) unstable; urgency=medium

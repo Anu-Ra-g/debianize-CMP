@@ -1,5 +1,5 @@
---- victoriametrics.debianize/debian/changelog	2026-06-10 15:08:24.885047683 +0530
-+++ victoriametrics/debian/changelog	2026-06-10 15:09:48.092513066 +0530
+--- victoriametrics.debianize/debian/changelog	2026-06-12 20:15:38.085215580 +0530
++++ victoriametrics/debian/changelog	2026-06-12 20:17:19.040292321 +0530
 @@ -1,5 +1,258 @@
 -golang-github-VictoriaMetrics-VictoriaMetrics (1.145.0-1) UNRELEASED; urgency=low
 +victoriametrics (1.145.0+ds1-1) unstable; urgency=medium
@@ -11,7 +11,7 @@
 +  * Use environment variables instead of patching the code for the apptests.
 +  * Refresh patches for new upstream release.
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 15:08:24 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 20:15:38 +0530
 + -- Guillem Jover <gjover@sipwise.com>  Tue, 09 Jun 2026 19:42:35 +0200
 +
 +victoriametrics (1.144.0+ds1-3) unstable; urgency=medium

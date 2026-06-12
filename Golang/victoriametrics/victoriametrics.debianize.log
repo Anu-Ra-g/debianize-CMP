@@ -1,4 +1,4 @@
-No upstream repository specified, using upstream source in /home/anurag/WORKSPACE/debianize-CMP/victoriametrics.debianize/
+No upstream repository specified, using upstream source in /home/anurag/debianize_diffs/victoriametrics.debianize/
 Switching to packaging branch debian/main.
 Using default unshare session
 Creating UpstreamBranchSource for enhanced upstream metadata handling
@@ -7,34 +7,17 @@ Using upstream version: 1.145.0
 Creating unshare session from cached Debian sid image
 Using cached Debian sid image from: /home/anurag/.cache/ognibuild/images/debian-sid-amd64.tar.gz
 Using cached Debian sid image
-Created upstream branch pointing to revision git-v1:e35bd268ff41d9bc8ae6d61bfee8dd30e5b212c6
+Created upstream branch pointing to revision git-v1:05903c8acd9557ef018bcd0a11d648d5d75f6523
 Created upstream tag: upstream/1.145.0
 Unable to map upstream requirement GoPackageDependency { package: "github.com/VictoriaMetrics/VictoriaLogs", version: Some("1.50.1-0.20260415124154-6b7a6357aec0") } (kind build) to a Debian package
 Unable to map upstream requirement GoPackageDependency { package: "github.com/bmatcuk/doublestar/v4", version: Some("4.10.0") } (kind build) to a Debian package
 Unable to map upstream requirement GoPackageDependency { package: "github.com/cespare/xxhash/v2", version: Some("2.3.0") } (kind build) to a Debian package
 Unable to map upstream requirement GoPackageDependency { package: "github.com/oklog/ulid/v2", version: Some("2.1.1") } (kind build) to a Debian package
 Multiple candidates for dependency [DebianDependency("golang-golang-x-oauth2-dev"), DebianDependency("golang-golang-x-oauth2-google-dev")]
-Breaking tie between [["golang-golang-x-oauth2-dev", "golang-golang-x-oauth2-google-dev"]] to "golang-golang-x-oauth2-google-dev" based on build-depends count
+Breaking tie between [["golang-golang-x-oauth2-dev", "golang-golang-x-oauth2-google-dev"]] to "golang-golang-x-oauth2-dev" based on build-depends count
 Unable to map upstream requirement GoPackageDependency { package: "gopkg.in/yaml.v2", version: Some("2.4.0") } (kind build) to a Debian package
-Multiple candidates for dependency [DebianDependency("golang-google-cloud-dev"), DebianDependency("golang-google-cloud-compute-metadata-dev")]
-Breaking tie between [["golang-google-cloud-dev", "golang-google-cloud-compute-metadata-dev"]] to "golang-google-cloud-dev" based on build-depends count
-Unable to map upstream requirement GoPackageDependency { package: "github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp", version: Some("1.32.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric", version: Some("0.56.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping", version: Some("0.56.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/aws/aws-sdk-go-v2/internal/ini", version: Some("1.8.6") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/fxamacker/cbor/v2", version: Some("2.9.1") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/go-jose/go-jose/v4", version: Some("4.1.4") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/knadh/koanf/v2", version: Some("2.3.4") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics", version: Some("0.150.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil", version: Some("0.150.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor", version: Some("0.150.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/spiffe/go-spiffe/v2", version: Some("2.6.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "go.opentelemetry.io/auto/sdk", version: Some("1.2.1") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "go.opentelemetry.io/collector/internal/componentalias", version: Some("0.150.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "gopkg.in/yaml.v3", version: Some("3.0.1") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "k8s.io/klog/v2", version: Some("2.140.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "sigs.k8s.io/structured-merge-diff/v6", version: Some("6.3.2") } (kind build) to a Debian package
 Using source package name: golang-github-VictoriaMetrics-VictoriaMetrics
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=6.451838115 slow_acquire_threshold_secs=2.0
 No relevant WNPP bugs found for golang-github-VictoriaMetrics-VictoriaMetrics
 No relevant WNPP bugs found for github.com/VictoriaMetrics/VictoriaMetrics
 Writing initial changelog with source_name: golang-github-VictoriaMetrics-VictoriaMetrics
@@ -139,6 +122,7 @@ fixer; name="homepage-for-cpan-package-contains-version"
 fixer; name="homepage-in-binary-package"
 fixer; name="homepage-url-ends-with-dot-git"
 fixer; name="initial-upload-closes-no-bugs"
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=2.211601723 slow_acquire_threshold_secs=2.0
 No relevant WNPP bugs found for golang-github-VictoriaMetrics-VictoriaMetrics
 fixer; name="invalid-dep3-format-patch-wrong-last-update"
 fixer; name="invalid-short-name-in-dep5-copyright"
@@ -217,3 +201,7 @@ fixer; name="out-of-date-copyright-format-uri"
 fixer; name="upstream-metadata-file"
 Lintian fixers completed successfully
 Lintian fixers completed: 3 applied, 0 failed
+
+debian/control
+--- Modified files ---
+debian/control

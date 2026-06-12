@@ -1,5 +1,5 @@
---- dulwich.debianize/debian/upstream/metadata	2026-06-10 14:27:43.352753020 +0530
-+++ dulwich/debian/upstream/metadata	2026-06-10 14:27:51.853326946 +0530
+--- dulwich.debianize/debian/upstream/metadata	2026-06-12 19:47:11.252411015 +0530
++++ dulwich/debian/upstream/metadata	2026-06-12 19:47:23.753071298 +0530
 @@ -1,7 +1,5 @@
 ----
 -Name: dulwich

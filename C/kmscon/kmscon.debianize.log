@@ -1,4 +1,4 @@
-No upstream repository specified, using upstream source in /home/anurag/WORKSPACE/debianize-CMP/kmscon.debianize/
+No upstream repository specified, using upstream source in /home/anurag/debianize_diffs/kmscon.debianize/
 Switching to packaging branch debian/main.
 Using default unshare session
 Other error: meson not installed; skipping meson.build introspection
@@ -8,11 +8,12 @@ Using upstream version: 10.0.0
 Creating unshare session from cached Debian sid image
 Using cached Debian sid image from: /home/anurag/.cache/ognibuild/images/debian-sid-amd64.tar.gz
 Using cached Debian sid image
-Created upstream branch pointing to revision git-v1:087ded3ac1ef932e73fd0f1fb47a8d49c4404a67
+Created upstream branch pointing to revision git-v1:474de7c3c8fb5525517d4d322f6079f24ce22244
 Created upstream tag: upstream/10.0.0
 Build failed without error being identified.
-Unable to obtain declared dependencies: Error installing dependency: Failed to run scan-dependencies: Unidentified { retcode: 1, lines: ["unshare: cannot change directory to /home/anurag/WORKSPACE/debianize-CMP/kmscon.debianize: No such file or directory"], secondary: None }
+Unable to obtain declared dependencies: Error installing dependency: Failed to run scan-dependencies: Unidentified { retcode: 1, lines: ["unshare: cannot change directory to /home/anurag/debianize_diffs/kmscon.debianize: No such file or directory"], secondary: None }
 Using source package name: kmscon.debianize
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=16.920088076 slow_acquire_threshold_secs=2.0
 No relevant WNPP bugs found for kmscon.debianize
 Writing initial changelog with source_name: kmscon.debianize
 Running lintian fixers on debianized package
@@ -116,6 +117,7 @@ fixer; name="homepage-for-cpan-package-contains-version"
 fixer; name="homepage-in-binary-package"
 fixer; name="homepage-url-ends-with-dot-git"
 fixer; name="initial-upload-closes-no-bugs"
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=6.433255094 slow_acquire_threshold_secs=2.0
 No relevant WNPP bugs found for kmscon.debianize
 fixer; name="invalid-dep3-format-patch-wrong-last-update"
 fixer; name="invalid-short-name-in-dep5-copyright"
@@ -196,3 +198,6 @@ fixer; name="out-of-date-copyright-format-uri"
 fixer; name="upstream-metadata-file"
 Lintian fixers completed successfully
 Lintian fixers completed: 3 applied, 0 failed
+
+debian/control
+--- No file needs modification ---

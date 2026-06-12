@@ -1,5 +1,5 @@
---- torchwood.debianize/debian/changelog	2026-06-10 14:51:19.686170882 +0530
-+++ torchwood/debian/changelog	2026-06-10 14:51:28.460940718 +0530
+--- torchwood.debianize/debian/changelog	2026-06-12 20:04:52.348546873 +0530
++++ torchwood/debian/changelog	2026-06-12 20:05:02.956399651 +0530
 @@ -1,5 +1,33 @@
 -golang-github-FiloSottile-torchwood (0.9.0-1) UNRELEASED; urgency=low
 +torchwood (0.9.0-5) unstable; urgency=medium
@@ -8,7 +8,7 @@
 +  * Add Breaks/Replaces/Conflicts on litetlog (Closes: #1134632)
 +  * Rename /usr/bin/spicy to spicy-torchwood (Closes: #1134629)
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 14:51:19 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 20:04:52 +0530
 + -- Simon Josefsson <simon@josefsson.org>  Mon, 11 May 2026 10:56:12 +0200
 +
 +torchwood (0.9.0-4) unstable; urgency=medium

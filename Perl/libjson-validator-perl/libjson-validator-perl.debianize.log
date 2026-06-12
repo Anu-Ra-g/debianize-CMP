@@ -1,4 +1,4 @@
-No upstream repository specified, using upstream source in /home/anurag/WORKSPACE/debianize-CMP/libjson-validator-perl.debianize/
+No upstream repository specified, using upstream source in /home/anurag/debianize_diffs/libjson-validator-perl.debianize/
 Switching to packaging branch debian/main.
 Using default unshare session
 Creating UpstreamBranchSource for enhanced upstream metadata handling
@@ -191,3 +191,6 @@ fixer; name="out-of-date-copyright-format-uri"
 fixer; name="upstream-metadata-file"
 Lintian fixers completed successfully
 Lintian fixers completed: 3 applied, 0 failed
+
+debian/control
+--- No file needs modification ---

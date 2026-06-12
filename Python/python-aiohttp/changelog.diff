@@ -1,5 +1,5 @@
---- python-aiohttp.debianize/debian/changelog	2026-06-10 14:31:36.343274601 +0530
-+++ python-aiohttp/debian/changelog	2026-06-10 14:31:55.412387751 +0530
+--- python-aiohttp.debianize/debian/changelog	2026-06-12 19:50:51.206301323 +0530
++++ python-aiohttp/debian/changelog	2026-06-12 19:51:37.469970288 +0530
 @@ -1,5 +1,545 @@
 -python-aiohttp (4.0.0~a1-1) UNRELEASED; urgency=low
 +python-aiohttp (3.14.1-1) unstable; urgency=medium
@@ -546,5 +546,5 @@
  
    * Initial release.
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 14:31:36 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 19:50:51 +0530
 + -- Tianon Gravi <admwiggin@gmail.com>  Sat, 04 Apr 2015 09:07:00 -0600

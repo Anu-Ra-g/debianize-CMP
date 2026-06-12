@@ -1,5 +1,5 @@
---- kmscon.debianize/debian/control	2026-06-10 15:10:08.618160540 +0530
-+++ kmscon/debian/control	2026-06-10 15:10:13.709990117 +0530
+--- kmscon.debianize/debian/control	2026-06-12 20:18:03.505986544 +0530
++++ kmscon/debian/control	2026-06-12 20:18:10.437447273 +0530
 @@ -1,11 +1,60 @@
 -Source: kmscon.debianize
 -Maintainer: Anu-Ra-g <nayakanurag078@gmail.com>

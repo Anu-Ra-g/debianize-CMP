@@ -1,11 +1,17 @@
---- dulwich.debianize/debian/control	2026-06-10 14:27:43.388752573 +0530
-+++ dulwich/debian/control	2026-06-10 14:27:51.852634827 +0530
-@@ -1,14 +1,55 @@
+--- dulwich.debianize/debian/control	2026-06-12 19:47:11.512192037 +0530
++++ dulwich/debian/control	2026-06-12 19:47:23.751603826 +0530
+@@ -1,21 +1,55 @@
 -Source: python-dulwich
 +Source: dulwich
  Section: python
 -Maintainer: Anu-Ra-g <nayakanurag078@gmail.com>
--Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3 (>= 3.10), python3-all, python3-setuptools (>= 77.0.0), python3-typing-extensions (>= 4.6.0), python3-urllib3 (>= 2.2.2)
+-Build-Depends: debhelper-compat (= 13),
+-               dh-sequence-python3,
+-               python3 (>= 3.10),
+-               python3-all,
+-               python3-setuptools (>= 77.0.0),
+-               python3-typing-extensions (>= 4.6.0),
+-               python3-urllib3 (>= 2.2.2)
 -Standards-Version: 4.7.4.1
 -Vcs-Browser: https://github.com/jelmer/dulwich,branch=debian%2Fmain
 -Vcs-Git: https://github.com/jelmer/dulwich,branch=debian%2Fmain.git
@@ -44,7 +50,8 @@
  
  Package: python3-dulwich
 -Architecture: all
--Depends: ${python3:Depends}, ${misc:Depends}
+-Depends: ${misc:Depends},
+-         ${python3:Depends}
 +Architecture: any
 +Depends: python3-urllib3 (>= 1.25),
 +         ${misc:Depends},

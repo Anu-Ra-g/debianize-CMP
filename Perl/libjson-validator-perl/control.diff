@@ -1,5 +1,5 @@
---- libjson-validator-perl.debianize/debian/control	2026-06-10 15:13:52.818142204 +0530
-+++ libjson-validator-perl/debian/control	2026-06-10 15:13:56.873087443 +0530
+--- libjson-validator-perl.debianize/debian/control	2026-06-12 20:24:30.416236176 +0530
++++ libjson-validator-perl/debian/control	2026-06-12 20:24:36.329512204 +0530
 @@ -1,11 +1,52 @@
 -Source: libjson-validator-perl.debianize
 -Maintainer: Anu-Ra-g <nayakanurag078@gmail.com>

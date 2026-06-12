@@ -1,5 +1,5 @@
---- libxml2.debianize/debian/changelog	2026-06-10 15:13:03.767276579 +0530
-+++ libxml2/debian/changelog	2026-06-10 15:13:32.688494842 +0530
+--- libxml2.debianize/debian/changelog	2026-06-12 20:23:27.595718863 +0530
++++ libxml2/debian/changelog	2026-06-12 20:24:09.504461446 +0530
 @@ -1,5 +1,2656 @@
 -libxml2 (2.15.3-1) UNRELEASED; urgency=low
 +libxml2 (2.15.3+dfsg-1) unstable; urgency=medium
@@ -11,7 +11,7 @@
 +  * d/libxml2-16.symbols: stamp xmlRelaxParserSetIncLImit with the
 +    upstream 2.15.2 introduction version.
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 15:13:03 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 20:23:27 +0530
 + -- Aron Xu <aron@debian.org>  Fri, 05 Jun 2026 20:59:42 +0800
 +
 +libxml2 (2.15.2+dfsg-0.1) unstable; urgency=high

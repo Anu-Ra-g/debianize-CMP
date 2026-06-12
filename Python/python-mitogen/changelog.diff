@@ -1,5 +1,5 @@
---- python-mitogen.debianize/debian/changelog	2026-06-10 14:32:25.941691633 +0530
-+++ python-mitogen/debian/changelog	2026-06-10 14:32:37.329708858 +0530
+--- python-mitogen.debianize/debian/changelog	2026-06-12 19:52:21.776312098 +0530
++++ python-mitogen/debian/changelog	2026-06-12 19:52:46.008678984 +0530
 @@ -1,5 +1,540 @@
 -python-mitogen (0.3.49-1) UNRELEASED; urgency=low
 +python-mitogen (0.3.49-1) unstable; urgency=medium
@@ -8,7 +8,7 @@
 +  * New upstream release.
 +    - Adds support for ansible 14. (Closes: #1138166)
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 14:32:25 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 19:52:21 +0530
 + -- Stefano Rivera <stefanor@debian.org>  Mon, 08 Jun 2026 10:19:01 -0400
 +
 +python-mitogen (0.3.48-1) unstable; urgency=medium

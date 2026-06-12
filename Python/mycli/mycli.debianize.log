@@ -1,4 +1,13 @@
-No upstream repository specified, using upstream source in /home/anurag/WORKSPACE/debianize-CMP/mycli.debianize/
+No upstream repository specified, using upstream source in /home/anurag/debianize_diffs/mycli.debianize/
 Switching to packaging branch debian/main.
 Using default unshare session
-Error getting upstream metadata: Other("error decoding response body")
+Error getting upstream metadata: Other("error sending request for url (https://mycli.net/)")
+
+usage: wrap-and-sort [-h] [-a | --wrap-always | --no-wrap-always]
+                     [-s | --short-indent | --no-short-indent]
+                     [-b | --sort-binary-packages | --no-sort-binary-packages]
+                     [-k | --keep-first | --no-keep-first]
+                     [-n | --cleanup | --no-cleanup]
+                     [-t | --trailing-comma | --no-trailing-comma] [-d PATH]
+                     [-f FILE] [-v] [--max-line-length MAX_LINE_LENGTH] [-N]
+wrap-and-sort: error: Debian directory not found, expecting "debian".

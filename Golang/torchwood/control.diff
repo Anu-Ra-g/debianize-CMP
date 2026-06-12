@@ -1,10 +1,24 @@
---- torchwood.debianize/debian/control	2026-06-10 14:51:25.404622389 +0530
-+++ torchwood/debian/control	2026-06-10 14:51:28.460940718 +0530
-@@ -1,15 +1,111 @@
+--- torchwood.debianize/debian/control	2026-06-12 20:04:58.398731826 +0530
++++ torchwood/debian/control	2026-06-12 20:05:02.956399651 +0530
+@@ -1,29 +1,111 @@
 -Source: golang-github-FiloSottile-torchwood
 -Section: devel
 -Maintainer: Anu-Ra-g <nayakanurag078@gmail.com>
--Build-Depends: debhelper-compat (= 13), dh-sequence-golang, golang-filippo-age-dev, golang-filippo-edwards25519-dev, golang-filippo-hpke-dev, golang-github-cznic-mathutil-dev, golang-github-dustin-go-humanize-dev, golang-github-go-logr-logr-dev, golang-github-go-logr-stdr-dev, golang-github-google-uuid-dev, golang-github-gtank-ristretto255-dev, golang-github-hashicorp-golang-lru-v2-dev, golang-github-klauspost-cpuid-dev, golang-github-mattn-go-isatty-dev, golang-github-remyoudompheng-bigfft-dev, golang-github-rogpeppe-go-internal-dev, golang-github-transparency-dev-formats-dev, golang-github-transparency-dev-merkle-dev, golang-github-transparency-dev-tessera-dev, golang-github-zombiezen-go-sqlite-dev, golang-go (>= 1.25.0), golang-golang-x-crypto-dev, golang-golang-x-exp-dev, golang-golang-x-mod-dev, golang-golang-x-net-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev, golang-golang-x-term-dev, golang-golang-x-text-dev, golang-golang-x-tools-dev, golang-lukechampine-blake3-dev, golang-modernc-libc-dev, golang-modernc-memory-dev, golang-modernc-sqlite-dev, golang-opentelemetry-otel-dev, golang-sigsum-sigsum-go-dev
+-Build-Depends: debhelper-compat (= 13),
+-               dh-sequence-golang,
+-               golang-filippo-age-dev,
+-               golang-github-prometheus-client-golang-dev,
+-               golang-github-rogpeppe-go-internal-dev,
+-               golang-github-transparency-dev-tessera-dev,
+-               golang-github-zombiezen-go-sqlite-dev,
+-               golang-go (>= 1.25.0),
+-               golang-golang-x-crypto-dev,
+-               golang-golang-x-mod-dev,
+-               golang-golang-x-net-dev,
+-               golang-golang-x-sync-dev,
+-               golang-golang-x-sys-dev,
+-               golang-lukechampine-blake3-dev,
+-               golang-sigsum-sigsum-go-dev
 -Standards-Version: 4.7.4.1
 -Vcs-Browser: https://github.com/FiloSottile/torchwood,branch=debian%2Fmain
 -Vcs-Git: https://github.com/FiloSottile/torchwood,branch=debian%2Fmain.git

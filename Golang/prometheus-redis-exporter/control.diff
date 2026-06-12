@@ -1,10 +1,18 @@
---- prometheus-redis-exporter.debianize/debian/control	2026-06-10 14:53:12.252744732 +0530
-+++ prometheus-redis-exporter/debian/control	2026-06-10 14:53:18.088489513 +0530
-@@ -1,15 +1,33 @@
+--- prometheus-redis-exporter.debianize/debian/control	2026-06-12 20:06:19.106776533 +0530
++++ prometheus-redis-exporter/debian/control	2026-06-12 20:06:38.747389048 +0530
+@@ -1,23 +1,33 @@
 -Source: golang-github-oliver006-redis-exporter
 -Section: devel
 -Maintainer: Anu-Ra-g <nayakanurag078@gmail.com>
--Build-Depends: debhelper-compat (= 13), dh-sequence-golang, golang-github-beorn7-perks-dev, golang-github-gomodule-redigo-dev, golang-github-klauspost-compress-dev, golang-github-kr-text-dev, golang-github-mna-redisc-dev, golang-github-munnerz-goautoneg-dev, golang-github-prometheus-client-golang-dev, golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev, golang-github-prometheus-procfs-dev, golang-github-sirupsen-logrus-dev, golang-go (>= 1.25.0), golang-golang-x-crypto-dev, golang-golang-x-sys-dev, golang-google-protobuf-dev, golang-gopkg-yaml.v2-dev
+-Build-Depends: debhelper-compat (= 13),
+-               dh-sequence-golang,
+-               golang-github-gomodule-redigo-dev,
+-               golang-github-mna-redisc-dev,
+-               golang-github-prometheus-client-golang-dev,
+-               golang-github-prometheus-client-model-dev,
+-               golang-github-sirupsen-logrus-dev,
+-               golang-go (>= 1.25.0),
+-               golang-golang-x-crypto-dev
 -Standards-Version: 4.7.4.1
 -Vcs-Browser: https://github.com/oliver006/redis_exporter,branch=debian%2Fmain
 -Vcs-Git: https://github.com/oliver006/redis_exporter,branch=debian%2Fmain.git

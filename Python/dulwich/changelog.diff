@@ -1,7 +1,13 @@
---- dulwich.debianize/debian/changelog	2026-06-10 14:27:31.048878136 +0530
-+++ dulwich/debian/changelog	2026-06-10 14:27:51.852634827 +0530
-@@ -1,5 +1,1052 @@
--python-dulwich (1.2.6-1) UNRELEASED; urgency=low
+--- dulwich.debianize/debian/changelog	2026-06-12 19:46:56.309120045 +0530
++++ dulwich/debian/changelog	2026-06-12 19:47:23.751603826 +0530
+@@ -1,5 +1,1058 @@
+-python-dulwich (1.2.7-1) UNRELEASED; urgency=low
++dulwich (1.2.7-1) unstable; urgency=medium
++
++  * New upstream release.
++
++ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 12 Jun 2026 12:02:59 +0100
++
 +dulwich (1.2.5-1) unstable; urgency=medium
 +
 +  * New upstream release, fixing several security issues:
@@ -1053,5 +1059,5 @@
  
    * Initial release. (Closes: #512897)
  
-- -- Anu-Ra-g <nayakanurag078@gmail.com>  Wed, 10 Jun 2026 14:27:31 +0530
+- -- Anu-Ra-g <nayakanurag078@gmail.com>  Fri, 12 Jun 2026 19:46:56 +0530
 + -- Jelmer Vernooij <jelmer@debian.org>  Thu, 01 Jan 2009 04:15:38 +0100

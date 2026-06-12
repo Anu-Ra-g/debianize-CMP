@@ -1,5 +1,5 @@
---- libxml2.debianize/debian/control	2026-06-10 15:13:19.538138981 +0530
-+++ libxml2/debian/control	2026-06-10 15:13:32.688494842 +0530
+--- libxml2.debianize/debian/control	2026-06-12 20:23:51.668005716 +0530
++++ libxml2/debian/control	2026-06-12 20:24:09.504461446 +0530
 @@ -1,12 +1,128 @@
  Source: libxml2
 +Priority: optional

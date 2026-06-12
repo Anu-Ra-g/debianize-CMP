@@ -1,5 +1,5 @@
---- libxml2.debianize/debian/rules	2026-06-10 15:12:58.989298673 +0530
-+++ libxml2/debian/rules	2026-06-10 15:13:32.689567925 +0530
+--- libxml2.debianize/debian/rules	2026-06-12 20:23:22.493585057 +0530
++++ libxml2/debian/rules	2026-06-12 20:24:09.505531193 +0530
 @@ -1,3 +1,134 @@
  #!/usr/bin/make -f
 -%:

@@ -1,23 +1,37 @@
---- python-aiohttp.debianize/debian/control	2026-06-10 14:31:48.298429727 +0530
-+++ python-aiohttp/debian/control	2026-06-10 14:31:55.412387751 +0530
-@@ -1,14 +1,74 @@
+--- python-aiohttp.debianize/debian/control	2026-06-12 19:51:29.320552095 +0530
++++ python-aiohttp/debian/control	2026-06-12 19:51:37.469970288 +0530
+@@ -1,30 +1,73 @@
  Source: python-aiohttp
  Section: python
 -Maintainer: Anu-Ra-g <nayakanurag078@gmail.com>
--Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3 (>= 3.10), python3-aiohappyeyeballs (>= 2.5.0), python3-aiosignal (>= 1.4.0), python3-all, python3-async-timeout (>= 4.0), python3-async-timeout (<< 6.0), python3-frozenlist (>= 1.1.1), python3-multidict (>= 4.5), python3-multidict (<< 7.0), python3-pkgconfig, python3-propcache (>= 0.2.0), python3-setuptools (>= 67.0), python3-typing-extensions (>= 4.4), python3-yarl (>= 1.17.0), python3-yarl (<< 2.0)
--Standards-Version: 4.7.4.1
--Vcs-Browser: https://github.com/aio-libs/aiohttp,branch=debian%2Fmain
--Vcs-Git: https://github.com/aio-libs/aiohttp,branch=debian%2Fmain.git
--Homepage: https://github.com/aio-libs/aiohttp
--Rules-Requires-Root: no
--Testsuite: autopkgtest-pkg-python
 +Maintainer: Debian Python Team <team+python@tracker.debian.org>
 +Uploaders: Tianon Gravi <admwiggin@gmail.com>,
 +           Paul Tagliamonte <paultag@debian.org>,
 +           Piotr Ożarowski <piotr@debian.org>,
 +           William Grzybowski <william@grzy.org>,
 +           Edward Betts <edward@4angle.com>
-+Build-Depends: debhelper-compat (= 13),
+ Build-Depends: debhelper-compat (= 13),
+-               dh-sequence-python3,
+-               python3 (>= 3.10),
+-               python3-aiohappyeyeballs (>= 2.5.0),
+-               python3-aiosignal (>= 1.4.0),
+-               python3-all,
+-               python3-async-timeout (<< 6.0),
+-               python3-async-timeout (>= 4.0),
+-               python3-frozenlist (>= 1.1.1),
+-               python3-multidict (<< 7.0),
+-               python3-multidict (>= 4.5),
+-               python3-pkgconfig,
+-               python3-propcache (>= 0.2.0),
+-               python3-setuptools (>= 67.0),
+-               python3-typing-extensions (>= 4.4),
+-               python3-yarl (<< 2.0),
+-               python3-yarl (>= 1.17.0)
+-Standards-Version: 4.7.4.1
+-Vcs-Browser: https://github.com/aio-libs/aiohttp,branch=debian%2Fmain
+-Vcs-Git: https://github.com/aio-libs/aiohttp,branch=debian%2Fmain.git
+-Rules-Requires-Root: no
+-Testsuite: autopkgtest-pkg-python
 +               dh-python,
 +               pybuild-plugin-pyproject,
 +               python3-aiodns <!nocheck>,
@@ -49,7 +63,6 @@
 +               python-yarl-doc,
 +               python3-alabaster,
 +               python3-doc,
-+               python3-sphinxcontrib.blockdiag
 +Standards-Version: 4.7.4
 +Homepage: https://aiohttp.readthedocs.org
 +Vcs-Git: https://salsa.debian.org/python-team/packages/python-aiohttp.git
@@ -70,7 +83,8 @@
 +
 +Package: python-aiohttp-doc
  Architecture: all
--Depends: ${python3:Depends}, ${misc:Depends}
+-Depends: ${misc:Depends},
+-         ${python3:Depends}
 +Section: doc
 +Depends: ${misc:Depends}, ${sphinxdoc:Depends}
 +Built-Using: ${sphinxdoc:Built-Using}

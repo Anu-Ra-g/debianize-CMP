@@ -1,4 +1,4 @@
-No upstream repository specified, using upstream source in /home/anurag/WORKSPACE/debianize-CMP/torchwood.debianize/
+No upstream repository specified, using upstream source in /home/anurag/debianize_diffs/torchwood.debianize/
 Switching to packaging branch debian/main.
 Using default unshare session
 Creating UpstreamBranchSource for enhanced upstream metadata handling
@@ -7,17 +7,13 @@ Using upstream version: 0.9.0
 Creating unshare session from cached Debian sid image
 Using cached Debian sid image from: /home/anurag/.cache/ognibuild/images/debian-sid-amd64.tar.gz
 Using cached Debian sid image
-Created upstream branch pointing to revision git-v1:bf0bd0b897f9b80b15f40430ead9e86b43acd7e9
+Created upstream branch pointing to revision git-v1:000b870ee4c9b8d6377bd09a6ff31f283b225f20
 Created upstream tag: upstream/0.9.0
 Unable to map upstream requirement GoPackageDependency { package: "filippo.io/mostly-harmless/vrf-r255", version: Some("0.0.0-20260605095812-d3620d7874c5") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "filippo.io/mldsa", version: Some("0.0.0-20260215214346-43d0283efc3e") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/cenkalti/backoff/v5", version: Some("5.0.3") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/cespare/xxhash/v2", version: Some("2.3.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "github.com/ncruces/go-strftime", version: Some("1.0.0") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "go.opentelemetry.io/auto/sdk", version: Some("1.2.1") } (kind build) to a Debian package
-Unable to map upstream requirement GoPackageDependency { package: "k8s.io/klog/v2", version: Some("2.140.0") } (kind build) to a Debian package
 Using source package name: golang-github-FiloSottile-torchwood
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=12.805466875 slow_acquire_threshold_secs=2.0
 No relevant WNPP bugs found for golang-github-FiloSottile-torchwood
+acquired connection, but time to acquire exceeded slow threshold aquired_after_secs=6.421001587 slow_acquire_threshold_secs=2.0
 No relevant WNPP bugs found for filippo.io/torchwood
 Writing initial changelog with source_name: golang-github-FiloSottile-torchwood
 Running lintian fixers on debianized package
@@ -199,3 +195,7 @@ fixer; name="out-of-date-copyright-format-uri"
 fixer; name="upstream-metadata-file"
 Lintian fixers completed successfully
 Lintian fixers completed: 3 applied, 0 failed
+
+debian/control
+--- Modified files ---
+debian/control
